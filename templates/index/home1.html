@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+Gold Price Prediction
+{% endblock title %}
+
+{% block content %}
+        
+  <main id="main" class="main">
+
+    <section class="section dashboard">
+      <div class="row">
+
+        <!-- Left side columns -->
+        <div class="col-lg-12">
+          <div class="row">
+              <div class="formdiv">
+                <h1><b>Project Code: SMOTE</b></h1>
+                <h2>Animal Detection for African Wildlife dataset</h2>
+                <form action="{% url 'home' %}" enctype="multipart/form-data" method="post">
+                  {% csrf_token %}
+                      <div class="file-upload">
+                      
+                        <div class="image-upload-wrap">
+                          <input name="image" class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+                          <div class="drag-text">
+                            <h3>Drag and drop a file or<br>Click Here</h3>
+                          </div>
+                        </div>
+                        <div class="file-upload-content">
+                          <img class="file-upload-image" src="#" alt="your image" />
+                          <div class="image-title-wrap">
+                            <button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded Image</span></button>
+                            <button type="submit" class="predict-btn">Predict</button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+              </div>
+
+
+          </div>
+        </div><!-- End Left side columns -->
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+{% endblock content %}

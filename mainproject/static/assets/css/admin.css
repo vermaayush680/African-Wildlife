@@ -1,0 +1,67 @@
+/* #header{
+
+    color: red;
+    box-shadow: 0px 0px 3px 0px black;
+}
+
+#header a:link, #header a:visited{
+}
+
+.module h2, .module caption, .inline-group h2{
+    background-color: greenyellow !important;
+    color: black;
+}
+
+div.breadcrumbs{
+
+    color: black;
+}
+div.breadcrumbs a {
+    color: black;
+}
+
+#toolbar{
+    background-color: black !important;
+}
+
+#content-related .module h2{
+    color: black !important;
+}
+
+h1 {
+    color: #212121 !important;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+.model-socialaccount th a:link,a:visited, .model-socialaccount td a:link,a:visited , .actionlist a:link,a:visited , .model-socialtoken th a:link,a:visited, .model-socialtoken td a:link,a:visited  , .model-emailaddress th a:link,a:visited , .model-emailaddress td a:link,a:visited ,.dashboard .module table td a:link,a:visited {
+    color: greenyellow;
+}
+
+.addlink , td.field-first_name a:link,a:visited , th.field-id a:link,a:visited ,td.field-email a:link,a:visited, th.field-name a:link,a:visited , th.field-username a:link,a:visited
+    {
+        color: greenyellow !important;
+    }
+    
+a.section {
+    color: black !important;
+}
+
+#nav-sidebar .current-model {
+    background: #4e0e1d;
+}
+
+.button.default, input[type=submit].default, .submit-row input.default   {
+    background-color: greenyellow !important;
+}
+
+.button, input[type=submit], input[type=button], .submit-row input, a.button
+{
+    background-color: green;
+}
+
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    color: black;
+} */

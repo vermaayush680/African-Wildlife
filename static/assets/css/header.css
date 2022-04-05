@@ -1,0 +1,32 @@
+.logo {
+    line-height: 1;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .logo img {
+    max-height: 2.8vw;
+    margin-right: 6px;
+  }
+  .logo span {
+    font-size: 2.2vw;
+    font-weight: 700;
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+  }
+
+  .header {
+    transition: all 0.5s;
+    z-index: 997;
+    height: 55px;
+    box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+    background-color: #fff;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .header div
+  {
+    justify-content: space-between;
+  }

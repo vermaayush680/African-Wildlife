@@ -1,0 +1,51 @@
+.full{
+  min-height: 100%;
+}
+.profile .profile-card .imgg {
+    max-width: 25%;
+    border-radius: 50%;
+  }
+  .profile .profile-card h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #2c384e;
+    padding: 10px 0 0 0;
+  }
+  .profile .profile-card h3 {
+    font-size: 22px;
+    padding: 0px 0 10px 0;
+  }
+  .profile .profile-card .social-links a {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0;
+    padding-left: 10px;
+    margin-right: 10px;
+    transition: 0.3s;
+    color: grey;
+  }
+  .profile .profile-card .social-links a img {
+    min-height: 35px;
+    max-height: 35px;
+  }
+  .profile .profile-card .social-links a:hover {
+    color: #012970;
+  }
+
+  .profile-card
+  {
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 0;
+  }
+
+  .label{
+    width: 30%;
+    padding-top: 15px;
+  }
+  .data
+  {
+    width: 70%;
+    padding-top: 15px;
+  }

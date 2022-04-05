@@ -1,0 +1,21 @@
+.navbar{
+  margin-left: 9vw;
+}
+.navbar ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 20px;
+    min-width: 50vw;
+}
+
+.navbar ul li{
+    width: 10vw;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+
